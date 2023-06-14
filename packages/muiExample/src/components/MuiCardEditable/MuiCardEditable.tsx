@@ -7,6 +7,7 @@ import MuiCardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { asBodilessImage, Editable } from '@bodiless/components';
+import { withNode } from '@bodiless/data';
 
 // Create an editable version of MUI Card.
 const CardMedia = asBodilessImage()(
@@ -44,4 +45,4 @@ function EditableCard() {
   );
 }
 
-export default EditableCard;
+export default withNode(EditableCard);
