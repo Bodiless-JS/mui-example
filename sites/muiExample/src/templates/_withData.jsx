@@ -11,7 +11,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import WithData from '../components/WithData';
 
-export * from './components/MuiCardEditable';
-export * from './components/MuiCardVanilla';
-export * from './components/MuiCard';
+export default WithData;
+// import React from 'react';
+// import { Page } from '@bodiless/next';
+// 
+// export default props => (
+//   <Page {...props}>
+//     bodiless page
+//   </Page>
+// );
+// 
